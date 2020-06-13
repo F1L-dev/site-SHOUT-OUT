@@ -1472,10 +1472,11 @@ img {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 327px) {
   .banner__cover_description_phone img {
-    margin-top: -15px;
+    margin-top: -50px;
     width: 220px;
+    padding-left: 40px;
   }
 }
 
