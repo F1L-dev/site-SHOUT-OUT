@@ -384,6 +384,10 @@ img {
   text-decoration: none;
   color: #088cb4;
 }
+.header__description a:hover {
+  color: #095a72;
+  transition: color 300ms ease-in-out;
+}
 @media (min-width: 1594px) {
   .header__description {
     padding-left: 153px;
