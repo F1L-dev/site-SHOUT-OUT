@@ -564,13 +564,34 @@ img {
   letter-spacing: 1px;
 }
 
-@media (min-width:525px) {
+@media (min-width:1100px) {
   .banner__description_icons {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 40px;
     padding-left: 5%;
+    padding-right: 10px;
+  }
+
+  .banner__description_icons_block {
+    margin-left: 32px;
+    text-align: center;
+  }
+
+  .banner__description_icons_block img {
+    max-width: 71px;
+    max-height: 71px;
+  }
+}
+
+@media (max-width:1100px) {
+  .banner__description_icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 1%;
     padding-right: 10px;
   }
 
@@ -594,7 +615,8 @@ img {
   }
 
   .banner__description_icons_block {
-    margin-left: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: center;
   }
 
@@ -1207,9 +1229,16 @@ img {
   }
 }
 
-@media (min-width: 531px) {
+@media (min-width: 1411px) {
   .function__description_block p {
     text-align: start;
+  }
+}
+
+@media (max-width: 1410px) {
+  .function__description_block p {
+    text-align: start;
+    margin-bottom: 15px;
   }
 }
 
@@ -1420,7 +1449,6 @@ img {
     margin-left: 1vh;
     margin-top: -20px;
     width: 470px;
-
   }
 }
 
@@ -1775,12 +1803,48 @@ footer {
   transition: color 300ms ease-in-out;
 }
 
+@media (max-width:364px) {
+  .column_text {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width:547px) {
+  .columns_block1 {
+    margin-right: 43px;
+  }
+}
+
+@media (max-width:389px) {
+  .columns_block1 {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width:364px) {
+  .columns_block1 {
+    margin-right: 140px;
+  }
+}
+
 .columns_block3 {
   margin-right: 70px;
 }
 
+@media (max-width:389px) {
+  .columns_block3 {
+    margin-right: 43px;
+  }
+}
+
 .columns_block2 {
-  margin-right: 45px;
+  margin-right: 50px;
+}
+
+@media (max-width:364px) {
+  .columns_block2 {
+    margin-right: 120px;
+  }
 }
 
 .section__inner a {
@@ -1817,8 +1881,6 @@ p.text-left {
 
 .footer-list {
   list-style: none;
-  padding: 0;
-  margin: 0;
   text-align: left;
   margin-bottom: 1rem;
 }
