@@ -380,7 +380,10 @@ img {
     flex-wrap: wrap;
   }
 }
-
+.header__description a {
+  text-decoration: none;
+  color: #088cb4;
+}
 @media (min-width: 1594px) {
   .header__description {
     padding-left: 153px;
