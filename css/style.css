@@ -83,6 +83,13 @@ img {
     padding-top: 10px;
   }
 }
+@media (max-width:632px) {
+  .header__menu ul {
+    display: flex;
+    white-space: nowrap;
+    padding-top: 10px;
+  }
+}
 
 @media (max-width:479px) {
   .header__menu ul {
